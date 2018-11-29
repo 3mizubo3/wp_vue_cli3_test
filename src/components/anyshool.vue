@@ -75,7 +75,11 @@
   </div>
 </template>
 
-
+<script>
+export default {
+  name: 'Anyschool'
+}
+</script>
 
 <style scoped src="../assets/css/app.scss" lang="scss">
 
