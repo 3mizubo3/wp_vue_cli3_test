@@ -1,15 +1,19 @@
 <template>
   <div id="app">
-    <Anyschool/>
+    <router-link to="/">AnySchool</router-link>
+    <router-link to="/about">Any Schoolとは?</router-link>
+    <router-link to="/report_all">活動報告</router-link>
+    <router-link to="/contact">お問い合わせ</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Anyschool from './components/HelloWorld.vue'
+//import AnySchool from './components/AnySchool.vue'
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    Anyschool
+    //AnySchool
   }
 }
 </script>
